@@ -46,7 +46,7 @@ const Index = () => {
     {
       id: 2,
       title: "Python for Data Science",
-      description: "Master Python programming for data analysis and machine learning",
+      description: "Master Python programming for data analysis & ML",
       instructor: "Dr. Michael Chen",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=32&h=32&fit=crop&crop=face",
       rating: 4.8,
@@ -61,7 +61,7 @@ const Index = () => {
     {
       id: 3,
       title: "React & Next.js Complete Guide",
-      description: "Build modern web applications with React and Next.js",
+      description: "Build web applications with React and Next.js",
       instructor: "Alex Rodriguez",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=32&h=32&fit=crop&crop=face",
       rating: 4.9,
@@ -276,7 +276,7 @@ const Index = () => {
                 viewport={{ once: true }}
                 whileHover={{ y: -5 }}
               >
-                <Card className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg overflow-hidden">
+                <Card className="group hover:shadow-xl transition-all duration-300 border border-gray-40 shadow-lg overflow-hidden">
                   <div className="relative">
                     <motion.img 
                       src={course.image} 

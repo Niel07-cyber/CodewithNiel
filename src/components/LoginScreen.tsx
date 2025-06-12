@@ -104,7 +104,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
               <Code2 className="h-8 w-8 text-blue-600 dark:text-blue-400" />
               <div className="absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full animate-pulse"></div>
             </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 dark:from-blue-400 dark:via-purple-400 dark:to-indigo-400 bg-clip-text text-transparent">
+            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-blue-600 to-indigo-600 dark:from-blue-400 dark:via-blue-400 dark:to-indigo-400 bg-clip-text text-transparent">
               CodewithNiel
             </span>
           </div>
@@ -140,7 +140,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
             {/* Left Side - Hero Content */}
             <div className="lg:col-span-7 space-y-8">
               <div className="space-y-6">
-                <Badge className="bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/50 dark:to-purple-900/50 text-blue-700 dark:text-blue-300 border-none">
+                <Badge className="bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/50 dark:to-blue-900/50 text-blue-700 dark:text-white-300 border-none">
                   <Zap className="h-3 w-3 mr-1" />
                   Join 50,000+ developers worldwide
                 </Badge>
@@ -148,7 +148,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
                 <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                   <span className="text-gray-900 dark:text-white">Code Your</span>
                   <br />
-                  <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 dark:from-blue-400 dark:via-purple-400 dark:to-indigo-400 bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-blue-600 via-green-600 to-blue-600 dark:from-blue-400 dark:via-green-400 dark:to-indigo-400 bg-clip-text text-transparent">
                     Future Today
                   </span>
                 </h1>
@@ -186,7 +186,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
                   <div className="text-sm text-gray-600 dark:text-gray-400">Active Students</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent mb-2">500+</div>
+                  <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-green-600 bg-clip-text text-transparent mb-2">500+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Expert Courses</div>
                 </div>
                 <div className="text-center">
@@ -201,7 +201,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
               <div className="w-full max-w-md">
                 <Card className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg border-0 shadow-2xl shadow-blue-500/10 dark:shadow-blue-400/5">
                   <CardHeader className="text-center pb-8">
-                    <div className="mx-auto w-16 h-16 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center mb-4">
+                    <div className="mx-auto w-16 h-16 rounded-full bg-gradient-to-r from-blue-500 to-blue-500 flex items-center justify-center mb-4">
                       <Code2 className="h-8 w-8 text-white" />
                     </div>
                     <CardTitle className="text-2xl font-bold text-gray-900 dark:text-white">
@@ -293,7 +293,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
 
                       <Button 
                         type="submit" 
-                        className="w-full h-12 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
+                        className="w-full h-12 bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-700 hover:to-green-700 text-white font-medium rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
                       >
                         {isLogin ? "Sign In" : "Create Account"}
                       </Button>
@@ -344,7 +344,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <Code2 className="h-6 w-6 text-blue-600 dark:text-blue-400" />
-                <span className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent">
+                <span className="text-lg font-bold bg-gradient-to-r from-blue-600 to-blue-600 dark:from-blue-400 dark:to-blue-400 bg-clip-text text-transparent">
                   CodewithNiel
                 </span>
               </div>
@@ -376,18 +376,35 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
             <div>
               <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Connect</h3>
               <div className="flex space-x-3">
+                <a
+                href="https://mail.google.com/mail/u/1/#inbox?compose=new"
+                target="_blank"
+                rel="noopener noreferrer">
                 <Button variant="ghost" size="sm" className="h-9 w-9 p-0 hover:bg-blue-50 dark:hover:bg-blue-900/30">
-                  <Facebook className="h-4 w-4" />
+                  <Mail className="h-4 w-4" /> 
                 </Button>
+                </a>
+                <a
+                href="https://github.com/Niel07-cyber"
+                target="_blank"
+                rel="noopener noreferrer">
                 <Button variant="ghost" size="sm" className="h-9 w-9 p-0 hover:bg-blue-50 dark:hover:bg-blue-900/30">
-                  <Twitter className="h-4 w-4" />
-                </Button>
+                  <Github className="h-4 w-4" />
+                </Button></a>
+                 <a
+                href="https://www.linkedin.com/in/othniel-aryee-9501a0239/"
+                target="_blank"
+                rel="noopener noreferrer">
                 <Button variant="ghost" size="sm" className="h-9 w-9 p-0 hover:bg-blue-50 dark:hover:bg-blue-900/30">
                   <Linkedin className="h-4 w-4" />
-                </Button>
+                </Button></a>
+                 <a
+                href="https://www.youtube.com/channel/UCq-DRcKaE6xCkf39CPABPbA"
+                target="_blank"
+                rel="noopener noreferrer">
                 <Button variant="ghost" size="sm" className="h-9 w-9 p-0 hover:bg-blue-50 dark:hover:bg-blue-900/30">
                   <Youtube className="h-4 w-4" />
-                </Button>
+                </Button></a>
               </div>
             </div>
           </div>
@@ -395,7 +412,7 @@ export const LoginScreen = ({ onLogin }: LoginScreenProps) => {
           <Separator className="my-8 bg-gray-200 dark:bg-gray-700" />
           
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 dark:text-gray-400">
-            <p>&copy; 2024 CodewithNiel. All rights reserved.</p>
+            <p>&copy; 2025 CodewithNiel. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Terms of Service</a>
