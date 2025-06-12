@@ -4,7 +4,7 @@ import { Code, Lightbulb, Zap } from 'lucide-react';
 
 export const Hero3D = () => {
   return (
-    <div className="w-full h-96 relative overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl">
+    <div className="w-full h-96 relative overflow-hidden bg-gradient-to-br from-blue-100 to-green-100 dark:from-blue-900/20 dark:to-green-900/20 rounded-xl">
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <motion.div
@@ -64,7 +64,7 @@ export const Hero3D = () => {
           transition={{ duration: 1, delay: 0.5 }}
         >
           <motion.h2 
-            className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent mb-4"
+            className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-blue-600 via-green-600 to-blue-600 bg-clip-text text-transparent mb-4"
             animate={{ 
               backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] 
             }}

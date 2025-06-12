@@ -93,7 +93,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with 3D and Animations */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800">
+      <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-green-600 to-blue-600">
         <FloatingElements />
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
@@ -150,7 +150,7 @@ const Index = () => {
                   </Button>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-green/10">
                     Browse Courses
                   </Button>
                 </motion.div>
@@ -185,7 +185,7 @@ const Index = () => {
                   viewport={{ once: true }}
                 >
                   <motion.div 
-                    className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-200"
+                    className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-200"
                     whileHover={{ rotate: 360 }}
                     transition={{ duration: 0.6 }}
                   >
@@ -450,7 +450,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section with Animation */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600 relative overflow-hidden">
+      <section className="py-16 bg-gradient-to-r from-blue-600 to-green-600 relative overflow-hidden">
         <FloatingElements />
         <div className="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <motion.h2 
