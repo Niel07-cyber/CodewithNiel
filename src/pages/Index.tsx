@@ -93,7 +93,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with 3D and Animations */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-green-600 to-blue-600">
+      <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-indigo-900 transition-colors duration-300">
         <FloatingElements />
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
@@ -167,7 +167,8 @@ const Index = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+        </section>
+     
 
       {/* Stats Section with Animated Counters */}
       <section className="py-16 bg-background">
@@ -205,6 +206,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+       
 
       {/* Video Demo Section */}
       <section className="py-16 bg-muted">

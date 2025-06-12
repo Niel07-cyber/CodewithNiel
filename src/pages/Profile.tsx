@@ -38,16 +38,16 @@ const Profile = () => {
   const [activeTab, setActiveTab] = useState("profile");
   
   const [profileData, setProfileData] = useState({
-    name: "John Doe",
-    email: "john.doe@example.com",
-    phone: "+1 (555) 123-4567",
-    location: "San Francisco, CA",
+    name: "Nii Dodou",
+    email: "othnielaryee07@gmail.com",
+    phone: "+33 (780) 75-9499",
+    location: "Frankfurt, Germany",
     bio: "Full-stack developer passionate about creating innovative web applications. Currently learning advanced React patterns and exploring machine learning.",
-    website: "https://johndoe.dev",
-    github: "johndoe",
-    linkedin: "johndoe",
-    twitter: "@johndoe",
-    joinDate: "January 2023"
+    website: "https://devniel.com",
+    github: "Niel-Cyber",
+    linkedin: "othniel-aryee",
+    twitter: "@aryee07",
+    joinDate: "January 2012"
   });
 
   const achievements = [
@@ -82,28 +82,28 @@ const Profile = () => {
       id: 1,
       title: "Advanced React Patterns",
       progress: 75,
-      instructor: "Sarah Johnson",
+      instructor: "Godfred Mireku",
       totalLessons: 24,
       completedLessons: 18,
-      thumbnail: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=300&h=200&fit=crop"
+      thumbnail: "https://media.geeksforgeeks.org/wp-content/uploads/20231110153649/React-Design-Patterns-That-Every-Developer-Should-Know.webp"
     },
     {
       id: 2,
       title: "Node.js Masterclass",
       progress: 45,
-      instructor: "Mike Chen",
+      instructor: "Brian Baiden Spencer",
       totalLessons: 32,
       completedLessons: 14,
-      thumbnail: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=300&h=200&fit=crop"
+      thumbnail: "https://cdn4.iconfinder.com/data/icons/logos-3/454/nodejs-new-pantone-white-1024.png"
     },
     {
       id: 3,
       title: "Python for Data Science",
       progress: 90,
-      instructor: "Dr. Emily Rodriguez",
+      instructor: "Dr. Joshua Stacks",
       totalLessons: 28,
       completedLessons: 25,
-      thumbnail: "https://images.unsplash.com/photo-1526379879527-8559ecfcaec0?w=300&h=200&fit=crop"
+      thumbnail: "https://railsware.com/blog/wp-content/uploads/2018/10/Python-for-Data-Science-illustration.jpg"
     }
   ];
 
